@@ -1,0 +1,11 @@
+Model Information:
+* title:	Semi-Truck Lowpoly Model
+* source:	https://sketchfab.com/3d-models/semi-truck-lowpoly-model-8d333a52ca6b4afbaba8002d236c5ef0
+* author:	Syed.Irfan (https://sketchfab.com/Syed.Irfan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Semi-Truck Lowpoly Model" (https://sketchfab.com/3d-models/semi-truck-lowpoly-model-8d333a52ca6b4afbaba8002d236c5ef0) by Syed.Irfan (https://sketchfab.com/Syed.Irfan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

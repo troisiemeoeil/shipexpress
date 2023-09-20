@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './Styles/App.css';
+
+import SideBar from './AppComponents/SideBar/SideBar';
+import Dashboard from './Scenes/Dashboard';
+import { Outlet, Route, Routes } from 'react-router-dom';
+import GeneralInfo from './AppComponents/DetailedInformation/GeneralInfo';
+import Auth from './Scenes/Auth';
+// import Auth from './Scenes/Auth';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div> 
+    <Routes>
+    <Route  path="/auth" element={<Auth />} />
+
+          <Route
+        element={
+          <div className='w-[100%] flex gap-2'>
+          <SideBar />
+            <Outlet />
+          </div>
+        }
+      >
+        <Route  path="/" element={<Dashboard />} />
+        <Route  path="/team" element={<GeneralInfo />} />
+        <Route path="/messages" element={<Dashboard />} />
+      </Route>
+    </Routes>
     </div>
+  //  </div>
+
   );
 }
 

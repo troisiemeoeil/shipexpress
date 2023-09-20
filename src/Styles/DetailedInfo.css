@@ -1,0 +1,41 @@
+.routeTitle {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding-right: 8%;
+}
+
+.leftSection {
+    display: flex;
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.Status {
+    font-size: small;
+    font-weight: 600;
+    color: rgb(66, 66, 255);
+}
+.contact {
+    display: flex;
+    gap: 14px;
+}
+
+.contactButton {
+    background-color: whitesmoke;
+    border: 1px solid rgba(202, 202, 202, 0.719);
+    border-radius: 5px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+

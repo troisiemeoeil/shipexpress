@@ -1,0 +1,30 @@
+.truckImage {
+    border-radius: 7px;
+    width:  55%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.button {
+    height: fit-content;
+    padding: 0.8em;
+    border-radius: 10px;
+    background-color: rgb(85, 85, 255);
+    color: white;
+    border: 0;
+}
+
+.container {
+    height: 200px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10em;
+}
+
+.containerImage {
+    display: flex;
+    gap: 10px;
+    margin: 2%;
+}

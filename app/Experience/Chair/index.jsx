@@ -36,11 +36,6 @@ window.addEventListener('click', (event)=> {
     console.log(`dropping ${JSON.stringify(draggable)}`);
     return;
   }
-
-
-
-
-useFrame(()=> {
   mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
 	mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
      const found = intersection(clickMouse);
@@ -48,16 +43,28 @@ useFrame(()=> {
    
       if (found.length > 0 && found[0].object.parent.parent.draggable) {
           let draggable = found[0].object.parent.parent
-          console.log(draggable.name);
+          console.log(draggable);
+          
       }
+
 })
 
-window.addEventListener('mousemove', (event) => {
-
-  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-  mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-});
-})
+  // window.addEventListener('mousemove', (event)=> {
+  //   if (draggable != null) {
+  //     console.log(`dropping ${JSON.stringify(draggable)}`);
+  //     return;
+  //   }
+  //   mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+  //   mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+  //      const found = intersection(clickMouse);
+  //     raycaster.setFromCamera( mouse, camera );
+     
+  //       if (found.length > 0 && found[0].object.parent.parent.draggable) {
+  //           let draggable = found[0].object.parent.parent
+  //           console.log(draggable.name);
+  //       }
+  
+  // })
 
 
 
